@@ -1,0 +1,14 @@
+name: SoundManhuntCore
+version: 1.0.0
+main: com.soundmanhunt.core.SoundManhuntPlugin
+api-version: "1.21"
+description: Manhunt core with party modes and compass tracking.
+
+commands:
+  party:
+    description: Gestiona tu party de Manhunt.
+    usage: /party <crear|invitar|aceptar|salir|modo|iniciar> [jugador|1-10]
+  manhunt:
+    description: Comandos de Manhunt.
+    aliases: [mh]
+    usage: /manhunt <brujula|terminar>
